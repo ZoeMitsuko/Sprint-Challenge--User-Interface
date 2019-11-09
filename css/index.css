@@ -279,8 +279,8 @@ footer nav a {
 	/*   flex-direction: row; /* column, row-reverse, column-reverse */
 	/*   flex-wrap: nowrap; /* wrap, wrap-reverse */
 	flex-flow: row wrap;
-	justify-content: space-between;
-	align-content: flex-start;
+	
+	align-content: center;
 }
 
 .square {
@@ -288,9 +288,9 @@ footer nav a {
 	width: 375px;
 	height: 450px;
 	padding: 10px;
-	margin: 0px 0px 20px 15px;
+	margin: 10px;
 	border-bottom: 1px dashed black;
-	background: #F8F8F8;
+	background: none;
 	color: black;
 	font-size: 10px;
 	text-align: left;
