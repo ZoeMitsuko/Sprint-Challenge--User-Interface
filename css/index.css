@@ -258,3 +258,61 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* CSS FOR ABOUT PAGE STARTS HERE */
+
+.flex {
+	display: flex;
+}
+
+.justify {
+	justify-content: stretch;
+}
+
+.box {
+	background: none;
+	width: auto;
+	height: auto;
+	display: flex !important;
+	display: block;
+	/*   flex-direction: row; /* column, row-reverse, column-reverse */
+	/*   flex-wrap: nowrap; /* wrap, wrap-reverse */
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: flex-start;
+}
+
+.square {
+
+	width: 375px;
+	height: 450px;
+	padding: 10px;
+	margin: 0px 0px 20px 15px;
+	border-bottom: 1px dashed black;
+	background: #F8F8F8;
+	color: black;
+	font-size: 10px;
+	text-align: left;
+	line-height: 50px;
+	/*   display: inline-block; */
+}
+.square2 {
+	width: 1250px;
+	height: auto;
+    margin: 15px;
+    padding:10px;
+	color: black;
+	font-size:10px;
+	text-align: left;
+	line-height: 50px;
+
+}
+button {
+	background-color: white;
+	color: black;
+	border: 2px solid #222222;
+	border-radius: 8px;
+	width: 40%;
+	height: 10%;
+}
